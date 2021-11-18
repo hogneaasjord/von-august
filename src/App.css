@@ -1,4 +1,25 @@
 .fp-img {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 800px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .fp-img {
+    height: 680px;
+  }
+  .fp-img  img {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .fp-img {
+    height: 400px;
+  }
+  .fp-img  img {
+    height: 250px;
+  }
 }
